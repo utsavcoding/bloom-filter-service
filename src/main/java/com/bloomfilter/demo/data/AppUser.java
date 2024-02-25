@@ -1,8 +1,10 @@
 package com.bloomfilter.demo.data;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 public class AppUser {
 
     @Id
